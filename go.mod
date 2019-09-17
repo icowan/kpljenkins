@@ -1,1 +1,3 @@
-module gitlab.yixinonline.org/pkg/jenkins
+module github.com/icowan/kpljenkins
+
+go 1.13

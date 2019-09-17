@@ -1,9 +1,9 @@
 package xml
 
 import (
-	"html/template"
 	"bytes"
 	"encoding/json"
+	"html/template"
 )
 
 var freeTestStyleJob = `

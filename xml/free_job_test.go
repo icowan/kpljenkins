@@ -4,9 +4,9 @@ import "testing"
 
 func TestMakeFreeStyleJob(t *testing.T) {
 	var param Param
-	param.Username = "congwang"
-	param.UserToken = "congwang"
-	param.GitAddr = "git@gitlab.yixinonline.org:src/ipdetect.git"
+	param.Username = "icowan"
+	param.UserToken = "helloworld"
+	param.GitAddr = "git@github.com:icowan/kplcloud.git"
 	param.GitToken = ""
 	rs, err := MakeFreeStyleJob("hello", param, "")
 	if err != nil {
@@ -18,9 +18,9 @@ func TestMakeFreeStyleJob(t *testing.T) {
 
 func TestMakeTestStyleJob(t *testing.T) {
 	var param Param
-	param.Username = "congwang"
-	param.UserToken = "congwang"
-	param.GitAddr = "git@gitlab.yixinonline.org:src/ipdetect.git"
+	param.Username = "icowan"
+	param.UserToken = "helloworld"
+	param.GitAddr = "git@github.com:icowan/kplcloud.git"
 	param.GitToken = ""
 	rs, err := MakeTestStyleJob("hello", param, "")
 	if err != nil {
